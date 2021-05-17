@@ -1,13 +1,14 @@
 {
   "parser": "babel-eslint",
   "rules": {
-    "no-unused-vars": "warn"
+    "semi": "off",
+    "arrow-parens": "off",
+    "comma-dangle": "off",
+    "require-jsdoc": "off"
   },
   "env": {
     "es6": true,
     "browser": true
   },
-  "extends": [
-    "eslint:recommended"
-  ]
+  "extends": ["eslint:recommended", "google"]
 }
