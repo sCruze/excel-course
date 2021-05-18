@@ -135,7 +135,7 @@ module.exports = {
     },
     optimization: optimization(),
     devServer: {
-        port: 3344,
+        port: 3444,
         open: true,
         compress: true,
     },
